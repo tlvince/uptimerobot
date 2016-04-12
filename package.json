@@ -30,11 +30,11 @@
   "homepage": "https://github.com/tlvince/uptimerobot#readme",
   "dependencies": {
     "meow": "^3.6.0",
+    "promise-props": "^1.0.0",
     "simple-get": "^2.0.0"
   },
   "devDependencies": {
     "chokidar-cli": "^1.2.0",
-    "promise-props": "^1.0.0",
     "standard": "^5.4.1",
     "semantic-release": "^4.3.5"
   },
