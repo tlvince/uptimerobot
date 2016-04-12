@@ -1,0 +1,46 @@
+{
+  "name": "uptimerobot",
+  "description": "Add uptime monitoring for given domains",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "standard",
+    "watch": "chokidar --initial --command 'node index.js' '*.js'",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlvince/uptimerobot.git"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "uptime",
+    "domain",
+    "uptimerobot",
+    "monitoring"
+  ],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
+  "engines": {
+    "node": ">=5 <6"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/uptimerobot/issues"
+  },
+  "homepage": "https://github.com/tlvince/uptimerobot#readme",
+  "dependencies": {
+    "meow": "^3.6.0",
+    "simple-get": "^2.0.0"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "promise-props": "^1.0.0",
+    "standard": "^5.4.1",
+    "semantic-release": "^4.3.5"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "license": "MIT"
+}
